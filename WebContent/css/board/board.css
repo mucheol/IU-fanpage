@@ -1,0 +1,361 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+*{
+    margin:0;
+    padding:0;
+    position: relative;
+    font-family : 'Nanum Gothic';
+    -ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    overflow: hidden;
+  }
+  
+a {color: black;text-decoration: none;outline: none;}
+div, p {color:black; cursor:default;}
+a:hover, a:active {text-decoration: none; color:black;}
+
+/* HEADER */
+#header{
+    position: fixed;
+    top:3vw;
+    display: flex;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family : 'Jeju Gothic';
+    z-index:1;
+}
+#header a{
+    margin:0 1vw;
+    color: white;
+}
+#header a:hover{
+	color:#8000ff;
+}
+#header a img{
+    position:fixed;
+    margin: 0 auto;
+    top:0.4vw;
+    left:0;
+    right:0;
+    width: 9vw;
+    border-radius: 4.5vw;
+}
+
+.header-left{
+    margin-left: 22.5vw;
+    text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
+}
+.header-right{
+    margin-left: 8.5vw;
+    text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
+}
+
+
+
+/* LOGIN BOX */
+#loginBox{
+	position: absolute;
+    top: 1vw;
+    right: 1vw;
+    z-index: 1;
+}
+#loginForm{
+	display: grid;
+}
+#loginForm input{
+	width: 9vw;
+    height: 1.7vw;
+}
+#loginBtnBox{
+	text-align: center;
+}
+#loginBtnBox input{
+	width: 4.5vw;
+    height: 1.8vw;
+    font-size: 0.7vw;
+}
+/* MY PAGE BOX */
+#myPageBox{
+	position: fixed;
+    top: 1vw;
+    right: 1vw;
+    margin-top: 2vw;
+    z-index: 1;
+}
+#welcomeDiv{
+	width: 12vw;
+    text-align: center;
+    font-size: 1.2vw;
+}
+#myPage__btnBox{
+	width: 12vw;
+    text-align: center;
+    margin-top: 0.6vw;
+    font-size: 1vw;
+}
+#myPage__btnBox a{
+	border: 0.1vw solid;
+    padding: 0.2vw;
+    border-radius: 0.3vw;
+}
+#myPage__btnBox a:hover{
+	background-color: rgba(240,240,240,0.3);
+}
+
+
+
+/* FIRST Page */
+#section__comments{
+    background-image: url("../../img/background/background7.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#contentsBox__comments table, th, td{
+    border: 1px solid;
+    text-align: center;
+    font-size: 1vw;
+}
+#contentsBox__comments table{
+    position: absolute;
+    top: 11vw;
+    left: 4vw;
+    height:32vw;
+    margin: auto 0;
+    background-color: white;
+}
+#contentsBox__comments tr{
+    display: flex;
+    height: 2vw;
+}
+#contentsBox__comments th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    font-weight: 550;
+    background-color: lightgray;
+}
+#contentsBox__comments td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+#contentsBox__comments th:nth-child(1), td:nth-child(1){
+    width:4vw;
+}
+#contentsBox__comments th:nth-child(2), td:nth-child(2){
+    width:33vw;
+}
+#contentsBox__comments th:nth-child(3), td:nth-child(3){
+    width:12vw;
+}
+#contentsBox__comments th:nth-child(4), td:nth-child(4){
+    width:13vw;
+}
+#sumAll{
+    width:10vw;
+    border: none;
+}
+#boardBtnBox{
+	position: absolute;
+    top: 43.5vw;
+    left: 4vw;
+    width: 63vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9vw;
+    font-weight: 600;
+}
+#boardBtnBox a{
+	margin: 0 1vw;
+}
+#newComment__btn{
+	position: absolute;
+    right: 2vw;
+}
+
+
+
+
+
+
+
+/* Second Page */
+#section__cheer{
+    background-image: url("../../img/background/background6.jfif");
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contentsBox__cheer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9vw 0 0 6vw;
+}
+.note{
+    width: 10.2vw;
+    height: 10.8vw;
+    margin: 0.5vw;
+    padding: 0 1.08vw;
+    font-size: 1.08vw;
+    border: 0.12vw double;
+    border-radius: 0.9vw;
+    background-color: rgb(255 255 255 / 60%);
+}
+.note__des{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#newCheer{
+	width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#newCheer__btn{
+	width: 4vw;
+    height: 1.7vw;
+    border-radius: 0.4vw;
+    font-size: 1vw;
+    font-weight: 600;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.2vw solid;
+}
+
+
+
+
+
+/* Join Page Modal */
+#joinModal{
+	display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(214 224 253 / 80%);
+    z-index: 9999;
+}
+#join__container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 8vw;
+    width: 30vw;
+    height: 30vw;
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 1vw;
+    background-color: rgb(153 103 232 / 80%);
+}
+#join__container div{
+	margin: 2.2vw 0;
+}
+.floor{
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+}
+.floor p{
+    text-align: center;
+    align-self: center;
+    width:6vw;
+}
+.floor span{
+    margin: 0.1vw 1.3vw 0.1vw 1vw;
+    align-self: end;
+}
+.floor input{
+    align-self: center;
+    font-size: 1.3vw;
+    height: 2vw;
+    background: #e2c9ff;
+    border: none;
+}
+#floor2 input{
+    align-self: center;
+    margin-right: 0.5vw;
+    margin-left: 1.2vw;
+}
+#floor2 label{
+    margin-right: 1.7vw;
+    display: flex;
+    align-self: center;
+}
+#floor6 input{
+    width: 7vw;
+    height: 2.2vw;
+    margin: 0 1vw;
+    border: 0.2vw solid #806ad8;
+    border-radius: 1vw;
+    background: white;
+}
+#join__container__background1{
+    position: absolute;
+    top: 3vw;
+    left: 46vw;
+    width: 35vw;
+    height: 27vw;
+    border-radius: 2vw;
+    background-color: rgb(0 0 255 / 0.2);
+    z-index: -1;
+}
+#join__container__background2{
+    position: absolute;
+    top: 14vw;
+    left: 39vw;
+    width: 29vw;
+    height: 31vw;
+    border-radius: 0;
+    background-color: rgb(235 255 73 / 0.5);
+    z-index: -2;
+}
+#join__container__background3{
+    position: absolute;
+    top: 10vw;
+    left: 20vw;
+    width: 35vw;
+    height: 32vw;
+    border-radius: 6vw;
+    background-color: rgb(255 0 0 / 30%);
+    z-index: -4;
+}
+#join__container__background4{
+    position: absolute;
+    top: 1vw;
+    left: 30vw;
+    width: 23vw;
+    height: 30vw;
+    border-radius: 11vw;
+    background-color: rgb(0 255 43 / 30%);
+    z-index: -3;
+}
+

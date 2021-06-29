@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+*{
+    margin:0;
+    padding:0;
+    position: relative;
+    font-family : 'Nanum Gothic';
+    -ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    overflow: hidden;
+  }
+
+a {color: black;text-decoration: none;outline: none;}
+div, p {color:black; cursor:default;}
+a:hover, a:active {text-decoration: none; color:black;}
+
+/* HEADER */
+#header{
+    position: fixed;
+    top:3vw;
+    display: flex;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family : 'Jeju Gothic';
+    z-index:1;
+}
+#header a{
+	color:white;
+    margin:0 1vw;
+}
+#header a:hover{
+	color:#8000ff;
+}
+#header a img{
+    position:fixed;
+    margin: 0 auto;
+    top:0.4vw;
+    left:0;
+    right:0;
+    width: 9vw;
+    border-radius: 4.5vw;
+}
+
+.header-left{
+    margin-left:22.5vw;
+    text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
+}
+.header-right{
+    margin-left: 8.5vw;
+    text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
+}
+
+
+/* BODY */
+#body__container{
+    background-image: url("../../img/background/background6.jfif");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#cheer__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#cheerContainer__background{
+    background-color: white;
+}
+#cheerContainer__box{
+    width: 35vw;
+    height: 30vw;
+    font-size: 3vw;
+    padding: 0 3vw;
+    background-color: rgb(255 255 255 / 60%);
+    border: 0.3vw double;
+    border-radius: 1vw;
+}
+#cheerContainer__des{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#submitBox{
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cheerBtn{
+    width: 8vw;
+    height: 3vw;
+    margin: 0 2vw 1vw;
+    font-size: 1.2vw;
+    box-shadow: 0vw 0.2vw 0.4vw rgba(0, 0, 0, 0.1);
+    border-radius: 2vw;
+    outline: 0;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.cheerBtn:hover{
+    color: #fff;
+    box-shadow: 0vw 1.5vw 2vw rgba(125, 159, 250, 0.4);
+    transform: translateY(-0.5vw);
+    background-color: #5ca2ff;
+}
+
+#imgUpload{    
+    position: absolute;
+    font-size: 3vw;
+    margin-top: -25.9vw;
+    margin-left: -38.5vw;
+    cursor: pointer;
+}

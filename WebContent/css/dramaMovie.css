@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+*{
+    margin:0;
+    padding:0;
+    position: relative;
+    font-family : 'Nanum Gothic';
+    -ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    overflow: hidden;
+  }
+  
+a {color: black; text-decoration: none; outline: none}
+div, p {color:black; cursor:default;}
+a:hover, a:active {text-decoration: none; color:black;}
+
+/* HEADER */
+#header{
+    position: fixed;
+    top:3vw;
+    display: flex;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family : 'Jeju Gothic';
+}
+#header a{
+    margin:0 1vw;
+}
+#header a:hover{
+	color:#8000ff;
+}
+#header a img{
+    position:fixed;
+    margin: 0 auto;
+    top:0.4vw;
+    left:0;
+    right:0;
+    width:9.0vw;
+    border-radius: 4.5vw;
+}
+
+ .header-left{
+    margin-left:22.5vw;
+    text-shadow: -0.1vw 0 white, 0 0.1vw white, 0.1vw 0 white, 0 -0.1vw white;
+}
+.header-right{
+    margin-left: 8.5vw;
+    text-shadow: -0.1vw 0 white, 0 0.1vw white, 0.1vw 0 white, 0 -0.1vw white;
+} 
+
+
+/* BODY */
+#bodyContainer{
+    background-image: url("../img/background/background3.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position-y: bottom;
+    z-index: -9999;
+}
+#body--ContentsBox{
+    position: absolute;
+    top: 7.5vw;
+    bottom:1vw;
+    right:10vw;
+    left:10vw;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px dotted black;
+    border-radius: 4vw;
+}
+.contentsSubject{
+    font-size: 1.5vw;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -0.5vw;
+    text-shadow: -0.15vw 0 white, 0 0.15vw white, 0.15vw 0 white, 0 -0.15vw white;
+}
+#contentsBox--drama{
+    position: absolute;
+    top: 1vw;
+    bottom: 1vw;
+    left: 2vw;
+    right: 45vw;
+}
+#contentsBox--movie{
+    position: absolute;
+    top: 1vw;
+    bottom: 1vw;
+    left: 45vw;
+    right: 2vw;
+}
+.contentsBox--contentsContainer{
+    width: 100%;
+    height: 93%;
+    margin-top: 1vw;
+    overflow-y: auto;
+    padding: 0 4.7vw;
+    margin-left: -4.7vw;
+}
+.contentsBox--contentsContainer::-webkit-scrollbar{
+    background:none;
+}
+
+
+.drama{
+    width:100%;
+    height:20vw;
+    margin-bottom: 1vw;
+    background-color: rgba(188, 213, 252, 0.7);
+    border: 2px solid rgb(117, 117, 230);
+    border-radius: 2vw;
+    font-size: 1.1vw;
+}
+.movie{
+    width:100%;
+    height:20vw;
+    margin-bottom: 1vw;
+    background-color: rgba(209, 209, 255, 0.7);
+    border: 2px solid rgb(151, 117, 230);
+    border-radius: 2vw;
+    font-size: 1.1vw;
+}
+.contents__topBox{
+    height: 60%;
+    display: flex;
+    margin-top: 0.5vw;
+}
+.contents__imgBox{
+    width:17vw;
+    height: 100%;
+    text-align: center;
+}
+.contents__imgBox img{
+    width:90%;
+    height: 90%;
+    margin-top: 5%;
+}
+.contents__desBox1{
+    width: 18vw;
+    margin-left: -2vw;
+}
+.contents__desBox1 div{
+    text-align: center;
+    margin-top: 0.7vw;
+}
+.contents__desBox__title{
+    font-size: 1.8vw;
+    font-weight: 700;
+    text-align: center;
+}
+.contents__desBox__role{
+    font-size: 1vw;
+}
+.contents__desBox__info{
+    display: flex;
+    font-size: 0.9vw;
+    padding-bottom: 0.5vw;
+    justify-content: center;
+    border-bottom: 0.1vw solid black;
+}
+.contents__desBox__info p{
+    margin: 0 1vw;
+}
+.contents__desBox__report{
+    font-size: 1vw;
+    display: flex;
+    height: 4.5vw;
+    align-items: center;
+    margin: 0.5vw;
+}
+/* DRAMA - 호텔델루나 */
+.drama__07 img{
+    width:60%;
+}
+.drama__07 .contents__desBox__role{
+    font-size: 1.1vw;
+}
+/* DRAMA - 달의 연인 보보경심 려 */
+.drama__05 .contents__desBox__title{
+    font-size: 1.4vw;
+}
+/* DRAMA - 프로듀사 */
+.drama__04 .contents__desBox__role{
+    font-size: 1.1vw;
+}
+/* DRAMA - 최고다 이순신 */
+.drama__02 img{
+    width:60%;
+}
+/* DRAMA - 드림하이 */
+.drama__01 img{
+    width:60%;
+}
+
+/* MOVIE - 드림 */
+.movie__05 img{
+    width: 70%;
+}
+/* MOVIE - 아무도 없는 곳 */
+.movie__04 img{
+    width: 60%;
+}
+.movie__04 .contents__desBox__report{
+    display: block;
+}
+/* MOVIE - 페르소나 */
+.movie__03 img{
+    width: 60%;
+}
+.movie__03 .contents__desBox__report{
+    display: block;
+    text-align: center;
+}
+/* MOVIE - 새미의 어드벤쳐2 */
+.movie__02 img{
+    width: 60%;
+}
+/* MOVIE - 초대받지 못한손님 */
+.movie__01 .contents__desBox__title{
+    font-size: 1.6vw;
+}

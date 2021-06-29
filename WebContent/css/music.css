@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+*{
+    margin:0;
+    padding:0;
+    position: relative;
+    font-family : 'Nanum Gothic';
+    -ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    overflow: hidden;
+  }
+
+a {color: black; text-decoration: none; outline: none;}
+div, p {color:black; cursor:default; }
+a:hover, a:active {text-decoration: none; color:black;}
+
+/* HEADER */
+#header{
+    position: fixed;
+    top:3vw;
+    display: flex;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family : 'Jeju Gothic';
+}
+#header a{
+    margin:0 1vw;
+}
+#header a:hover{
+	color:#8000ff;
+}
+#header a img{
+    position:fixed;
+    margin: 0 auto;
+    top:0.4vw;
+    left:0;
+    right:0;
+    width:9.0vw;
+    border-radius: 4.5vw;
+}
+
+ .header-left{
+    margin-left:22.5vw;
+    text-shadow: -0.1vw 0 white, 0 0.1vw white, 0.1vw 0 white, 0 -0.1vw white;
+}
+.header-right{
+    margin-left: 8.5vw;
+    text-shadow: -0.1vw 0 white, 0 0.1vw white, 0.1vw 0 white, 0 -0.1vw white;
+} 
+
+/* BODY */
+#bodyContainer{
+    background-image: url("../img/background/background4.jpg");
+    min-height: 100%;
+    background-position-x: -7vw;
+    background-position-y: -15vw;
+    z-index: -9999;
+}
+#body--contentsBox{
+    position: absolute;
+    top: 7.5vw;
+    bottom:1vw;
+    right:40vw;
+    left:5vw;
+    background: #d8e2d366;
+    border: 1px dotted black;
+    border-radius: 4vw;
+    overflow-y: auto;
+}
+#body--contentsBox::-webkit-scrollbar{
+    background:none;
+}
+#contents__container{
+    margin:2vw;
+}
+.albumBox{
+    height: 13vw;
+    width: 50vw;
+    margin-top: 1.5vw;
+    display: flex;
+    font-size: 1vw;
+    border-bottom: 0.15vw dotted #deffde;
+}
+.album__img{
+    height: 12vw;
+    width: 12vw;
+    text-align: center;
+}
+.album__img img{
+    height:90%;
+    margin-top: 5%;
+    margin-left: 0.8vw;
+}
+.album__des{
+    margin-left: 1vw;
+    width: 40vw;
+}
+.album__des__name{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+.album__des__name p:nth-child(1){
+    font-size: 1.7vw;
+    margin-left: 7vw;
+    color:rgb(66, 16, 66)
+}
+.album__des__name p:nth-child(2){
+    font-size: 0.9vw;
+    margin-left: 2vw;
+    align-self: flex-end;
+}
+.album__des__meaning{
+    height: 5vw;
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.album__des__song{
+    font-size: 0.9vw;
+    margin: 1vw 1vw 1vw 3vw;
+    height: 3vw;
+    color:rgb(124, 23, 102)
+}
+.albumTitle{
+    color: rgb(252, 0, 0);
+}
+.repakage{
+    color:rgb(102, 102, 18);
+}
+
+/* Love poem */
+.album13 .album__des{
+    margin-top: -1.5vw;
+}
+.album13 .album__des__meaning{
+    margin-top: 2.5vw;
+}
+.album13 .album__des__song{
+    margin-top: 2.5vw;
+}
+/* Bookmark */
+.album9 .album__des{
+    margin-top: -1vw;
+}
+.album9 .album__des__meaning{
+    margin-top: 1.8vw;
+}
+.album9 .album__des__song{
+    margin-top: 1.8vw;
+}
+/* Modern Times */
+.album8 .album__des{
+    margin-top: -1vw;
+}
+/* REAL+ */
+.album5 .album__img img{
+    margin-top: 1vw;
+    width:12vw;
+    height: 9vw;
+    margin-left: 0;
+}
+/* Real */
+.album4 .album__img img{
+    margin-left: 2.5vw;
+    margin-right: 2vw;
+}
+/* IU...IM */
+.album3 .album__img img{
+    margin-left: 0;
+}
+/* Growing Up */
+.album2 .album__img img{
+    margin-top: 1vw;
+    width:12vw;
+    height: 9vw;
+    margin-left: 0;
+}
+
+/* Lost and Found */
+.album1{
+    border:none;
+}
+
+
+
+#notice{
+    -webkit-animation:blink 1s ease-in-out infinite alternate;
+     -moz-animation:blink 1s ease-in-out infinite alternate;
+      animation:blink 1s ease-in-out infinite alternate;
+      color:yellow;
+      position: fixed;
+      top: 1vw;
+      left: 1vw;
+      font-size: 0.8vw;
+} 
+@-webkit-keyframes blink{ 
+    0%{opacity:0.5;} 
+    100% {opacity:1; color:red;} 
+} 
+@-moz-keyframes blink{ 
+    0%{opacity:0.5;} 
+    100% {opacity:1; color:red;} 
+} 
+@keyframes blink{ 
+    0% {opacity:0.5;} 
+    100% {opacity:1; color:red;} 
+}

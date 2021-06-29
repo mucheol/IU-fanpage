@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+/* COMMON */
+*{
+    margin:0;
+    padding:0;
+    position: relative;
+    font-family : 'Nanum Gothic';
+   -ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+  }
+
+
+/* BODY */
+#bodyContainer{
+    background-image: url("../img/background/background5.jpg");
+    min-height: 100%;
+    background-size: cover;
+    background-position-x: -3vw;
+    background-repeat: no-repeat;
+}
+
+
+.modal{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%;
+    background: rgba(0,0,0,0.8); 
+}
+.modalBox{
+	width: 100%;
+    height: 100%;
+}
+
+.modal__title{
+    height: 15vw;
+    display: flex;
+    place-content: center;
+}
+.contents__img{
+    width: 12vw;
+    height: 12vw;
+    margin-left: 12vw;
+    align-self: center;
+}
+.contents__img img{
+    width:100%;
+    border-radius: 6vw;
+    border : 0.01vw solid rgb(223, 222, 222);
+}
+.modal__contents__title{
+    color: white;
+    width: 13.5vw;
+    margin-top: -1vw;
+    font-size: 2vw;
+    text-align: center;
+    align-self: center;
+}
+.modal__contents__title p {
+    margin-top:1vw;
+}
+.modal__contents{
+    position: absolute;
+    top: 16vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vw 0 0 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal__contents::-webkit-scrollbar{
+	background: none;
+}
+.modal__contents__video{
+    position: relative;
+    width: 19.5vw;
+    height: 11vw;
+    margin: 1vw 1.5vw;
+}
+.modal__contents__video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
