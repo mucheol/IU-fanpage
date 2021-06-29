@@ -1,2 +1,2 @@
-# Eclipse Java로 만든 개인 Fanpage
+# Java로 만든 개인 Fan
 Singer-songwriter IU fansite
