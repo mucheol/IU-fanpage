@@ -1,2 +1,2 @@
-# Java로 만든 개인 Fan
-Singer-songwriter IU fansite
+# Java로 만든 개인 Fansite
+[iufanpage.com](http://iufanpage.com/)
