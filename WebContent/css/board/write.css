@@ -108,8 +108,11 @@ tbody{
 	border-top: 0.15vw solid black;
 	background-color: white;
 }
-.table thead{
+.table thead tr{
 	background: e5e3e3;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #eaeaea;
 }
 .table input{
 	height: 2.5vw;
@@ -117,6 +120,16 @@ tbody{
 .table textarea{
 	height: 24.5vw;
 }
+.table tbody tr:nth-child(4) td{
+	height: 21.5vw;
+}
+.table tbody tr:nth-child(4) td:nth-child(1){
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
 .inputBtn{
 	display: inline-block;
 	padding: 0.6vw 1.2vw;
@@ -144,4 +157,17 @@ tbody{
 }
 .inputBtn:hover {
 	background-color: #515050; 
+}
+
+#viewBtnBox{
+	font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 12vw;
+}
+.writeBtn{
+	margin:0 2vw;
+}
+.writeBtn:hover{
+	color: #ffffff;
 }

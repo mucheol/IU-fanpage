@@ -213,7 +213,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 .note{
     width: 10.2vw;
     height: 10.8vw;
-    margin: 0.5vw;
+    margin: 0.5vw 2vw;
     padding: 0 1.08vw;
     font-size: 1.08vw;
     border: 0.12vw double;
@@ -227,9 +227,21 @@ a:hover, a:active {text-decoration: none; color:black;}
     text-align: center;
     align-items: center;
 }
+.note__des p{
+	width:100%;
+	height: 100%;
+}
+.note__des textarea{
+	width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.08vw;
+}
 #newCheer{
 	width: 100%;
-    height: 10vw;
+    height: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,6 +262,24 @@ a:hover, a:active {text-decoration: none; color:black;}
 
 
 
+
+/* 이전, 다음 버튼(a) */
+.btn{
+	font-size: 1vw;
+}
+.btn:hover{
+	color:white;
+}
+
+.btn-arraw-right{
+	position: absolute;
+    right: 14vw;
+}
+.btn-arraw-left{
+	position: absolute;
+    right: 17vw;
+}
+    
 
 /* Join Page Modal */
 #joinModal{

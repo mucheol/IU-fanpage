@@ -118,7 +118,7 @@
                 	<%
                 		}
                 	%>
-                <a href="write.jsp" onClick="loginCheck()" id="newComment__btn">글쓰기</a>
+                <a href="write.jsp" onClick="loginCheck()" id="newComment__btn" class="btn">글쓰기</a>
                 </div>
             </div>
         </div>
@@ -136,7 +136,7 @@
                  %>
                 <div class="note">
                     <div class="note__des">
-                        <p><a href="writeView2.jsp?cheerID=<%= list2.get(i).getCheerID() %>"><%= list2.get(i).getCheerContent() %></a></p>
+                        	<p><a href="writeView2.jsp?cheerID=<%= list2.get(i).getCheerID() %>"><textarea readonly><%= list2.get(i).getCheerContent() %></textarea></a></p>
                     </div>
                 </div>
                 <%

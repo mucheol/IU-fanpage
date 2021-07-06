@@ -61,15 +61,17 @@
 					</tr>
 				</tbody>
 			</table>
-			<a href="board.jsp" id="boardList">목록</a>
-			<%
-				if(userID != null && userID.equals(board.getUserID())){
-			%>
-				<a href="update.jsp?boardID=<%= boardID %>" id="writeUpdate" class="writeBtn">수정</a>
-				<a href="deleteAction.jsp?boardID=<%= boardID %>" onclick="return confirm('정말로 삭제하시겠습니까?')" id="writedelete" class="writeBtn">삭제</a>
-			<%
-				}
-			%>
+			<div id="viewBtnBox">
+				<a href="board.jsp" class="writeBtn" id="boardList">목록</a>
+				<%
+					if(userID != null && userID.equals(board.getUserID())){
+				%>
+					<a href="update.jsp?boardID=<%= boardID %>" id="writeUpdate" class="writeBtn">수정</a>
+					<a href="deleteAction.jsp?boardID=<%= boardID %>" onclick="return confirm('정말로 삭제하시겠습니까?')" id="writedelete" class="writeBtn">삭제</a>
+				<%
+					}
+				%>
+			</div>
 		</div>
 	</div>
 
@@ -78,5 +80,6 @@
 	<script src="../../js/bootJs/bootstrap.js"></script>
 	<script src="../../js/openSource/mouseEffect.js"></script>
 	<script src="../../js/common.js"></script>
+	<script src="../../js/write.js"></script>
 </body>
 </html>

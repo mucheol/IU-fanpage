@@ -38,7 +38,9 @@
 		<div id="cheer__container">
 			<div id="cheerContainer__box">
 				<div id="cheerContainer__des">
-					<%= cheer.getCheerContent().replaceAll(" ","&nbsp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\n","<br>") %>
+					<textarea readonly>
+						<%= cheer.getCheerContent().replaceAll(" ","&nbsp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\n","<br>") %>
+					</textarea>
 				</div>
 				
 				<div id="submitBox">
@@ -46,12 +48,11 @@
 					<%
 						if (userID != null && userID.equals(cheer.getUserID())) {
 					%>
-					<a href="update2.jsp?cheerID=<%=cheerID%>" id="writeUpdate2" class="writeBtn">수정</a> 
-					<a href="deleteAction2.jsp?cheerID=<%=cheerID%>"	onclick="return confirm('정말로 삭제하시겠습니까?')" id="writedelete" class="writeBtn">삭제</a>
+					<a href="update2.jsp?cheerID=<%=cheerID%>" id="writeUpdate2" class="cheerA cheerBtn">수정</a> 
+					<a href="deleteAction2.jsp?cheerID=<%=cheerID%>"	onclick="return confirm('정말로 삭제하시겠습니까?')" id="writedelete" class="cheerA cheerBtn">삭제</a>
 					<%
 						}
 					%>
-					<button id="cheer__submit" class="cheerBtn">글 올리기</button>
 				</div>
 			</div>
 		</div>
@@ -64,5 +65,6 @@
 	<script src="../../js/bootJs/bootstrap.js"></script>
 	<script src="../../js/openSource/mouseEffect.js"></script>
 	<script src="../../js/common.js"></script>
+	<script src="../../js/write2.js"></script>
 </body>
 </html>
