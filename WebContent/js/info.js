@@ -19,11 +19,10 @@ $("#input").keyup(function(){
 });
     
     $(".button").hover(function(){
-        $(this).css("background-color","black");
+        $(this).css("background-color","rgba(153,95,243,0.3)");
     },function(){
-        $(this).css("background","rgba(54,45,68,0.7)");
+        $(this).css("background","rgba(181,146,236,0.3)");
     });
-
     $("#back").click(function(){
         location.href="board.jsp";
     });
