@@ -2,7 +2,7 @@
 //패스워드 일치 확인
 $(".alert-success").hide();
 $(".alert-danger").hide();
-$("#input").keyup(function(){
+$(".passCheck").keyup(function(){
     var pwd = $("#userPassword").val();
     var pwd2 = $("#reUserPassword").val();
     if(pwd != "" || pwd2 != ""){
@@ -26,42 +26,48 @@ $("#input").keyup(function(){
     $("#back").click(function(){
         location.href="board.jsp";
     });
+    
+    
+    //HEADER
+    $(".headerA").hover(function() {
+    	$(this).css('text-shadow','-0.1vw 0 white, 0 0.1vw white, 0.1vw 0 white, 0 -0.1vw white');
+    },function(){
+    	$(this).css('text-shadow','-0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black');
+    });
 })(window, document);
 
 //유효성 검사
-function sendIt(tag) {
-    var ck_pwd = $("#userPassword").val();
-    var ck_email = $("#userEmail").val();
-    var e;
-    var regexPwd =/^.*(?=^.{4,12}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
-    var pwd_check = regexPwd.test(ck_pwd);
-    
-    try{
-    
-        if(pwd_check == false){
-            alert("비밀번호는 4~12자 영문,숫자,특수문자 조합으로 이루어져야 합니다.");
-            document.input.userPassword.focus();
-            document.input.userPassword.select();
-            return false;
-        }
-    
-        if (document.input.userEmail.value == "") {
-            alert("이메일을 입력하지 않았습니다.");
-            document.userEmail.focus();
-            return false;
-        }
-        
-        var regex = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
-        var email_check = regex.test(ck_email);
-        if (email_check == false) {
-            alert("잘못된 이메일 형식입니다.");
-            document.input.userEmail.value = "";
-            document.input.userEmail.focus();
-            return false;
-        }
-        alert('회원정보가 수정되었습니다.');
-        return true;
-    }catch(e){
-        return false;
-    }
+function form_check() {
+
+	//변수넣기
+	var userID = document.getElementById("userID");
+	var userPassword = document.getElementById("userPassword");
+	var userEmail = document.getElementById("userEmail");
+	
+	//비밀번호 정규식(영문자+숫자+특수조합[6~20자리 입력])
+	var pwdCheck = /^(?=.*[a-zA-Z])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{6,20}$/;
+	
+	if(userID == ""){
+		alert("아이디를 입력해주세요");
+		userID.focus();
+		return false;
+	}else if(userPassword == ""){
+		alert("비밀번호를 입력해주세요");
+		userPassword.focus();
+		return false;
+	}else if(!pwdCheck.test(userPassword.value)){
+		alert("비밀번호는 영문자+숫자+특수문자 조합으로 6~20자리 사용해야 합니다.");
+		userPassword.focus();
+		return false;
+	}else if(userEmail.value == ""){
+		alert("이메일 주소를 입력해주세요");
+		userEmail.focus();
+		return false;
+	}
+	return true;
+	
+	//입력 값 전송
+//	document.userUpdate.submit();
 }
+    
+
