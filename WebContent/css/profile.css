@@ -149,8 +149,71 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* 모바일 */
 @media screen and (max-width:767px) {
 	
+#header{
+    display: block;
+    font-size: 5vw;
+    font-weight: 700;
+    top: 0vw;
+	background-color: rgb(203 203 203);
+    padding: 4vw 0;
+}
+#header a {
+    margin: 0 5vw;
+}
+.header-left {
+	width:100%;
+    margin-left: 0;
+}
+.header-right {
+	width:100%;
+    margin-left: 0;
+}
 
-	}
+#header a img {
+    position: relative;
+    margin: 1vw auto;
+    width: 12vw;
+    border-radius: 4.5vw;
+}
+
+/* 모바일 BODY */
+#bodyContainer{
+    background-image: url("../img/background/M-background2.jfif");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 2vw;
+    background-repeat: no-repeat;
+}
+#body-ContentsBox {
+	top: 36vw;
+    left: 12vw;
+    width: 77vw;
+    border-radius: 6vw;
+    background: rgb(160 32 193 / 30%);
+}
+.profile-name p {
+    font-size: 5vw;
+    color: rgb(186 93 210);
+}
+.profile-age p {
+    font-size: 3.3vw;    
+}
+.profile-body p {
+    font-size: 3.3vw;
+}
+.profileBox div {
+    margin-top: 1vw;
+    font-size: 3vw;
+}
+.profile-des{
+	width: 60vw;
+}
+.profile-des-subject {
+    color: rgb(255 215 215);
+    
+    
+}
 	
 	
 	

@@ -18,7 +18,7 @@
 						<p>아이유 (이지은, IU, Lee Ji-eun)</p>
 					</div>
 					<div class="profile-age">
-						<p>29세 (만 27세) | 닭띠</p>
+						<p>29세 (만 28세) | 닭띠</p>
 						<p>1993년 5월 16일 | 황소자리</p>
 					</div>
 					<div class="profile-body">
