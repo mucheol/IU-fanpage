@@ -1,13 +1,18 @@
-@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
-@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
-@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@font-face {
+      src : url("../fonts/Cafe24Dongdong.ttf");
+      font-family: "Dongdong"
+}
+@font-face {
+      src : url("../fonts/Cafe24Behappy.ttf");
+      font-family: "Behappy"
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 *{
     margin:0;
     padding:0;
     position: relative;
-    font-family : 'Nanum Gothic';
+    font-family: ‘Behappy’, 'Dongdong', sans-serif;
     -ms-user-select: none; 
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
@@ -34,7 +39,6 @@ a:hover, a:active {text-decoration: none; color:black;}
     height: 100px;
     text-align: center;
     font-size: 1.7vw;
-    font-family : 'Jeju Gothic';
 }
 #header a{
     margin:0 1vw;
@@ -128,3 +132,25 @@ a:hover, a:active {text-decoration: none; color:black;}
     font-size: 1.1vw;
     color:rgb(250, 253, 224);
 }
+.d-day{
+	display: flex;
+    align-items: center;
+}
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:1023px) {
+/* 타블렛 */
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 모바일 */
+@media screen and (max-width:767px) {
+	
+
+	}
+	
+	
+	

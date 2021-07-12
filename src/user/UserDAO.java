@@ -28,18 +28,18 @@ public class UserDAO {
 		try {
 			pstmt = conn.prepareStatement(SQL);
 			pstmt.setString(1, userID);
-			rs = pstmt.executeQuery();	//½ÇÇàÇÑ °á°ú »ðÀÔ
-			if(rs.next()) {	//°á°ú Á¸ÀçÇÑ´Ù¸é
-				if(rs.getString(1).equals(userPassword)) 	//ÆÐ½º¿öµå ÀÏÄ¡È®ÀÎ
-					return 1;	//·Î±×ÀÎ ¼º°ø
+			rs = pstmt.executeQuery();	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+			if(rs.next()) {	//ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´Ù¸ï¿½
+				if(rs.getString(1).equals(userPassword)) 	//ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡È®ï¿½ï¿½
+					return 1;	//ï¿½Î±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 				else 
-					return 0; 	//ÆÐ½º¿öµå ºÒÀÏÄ¡
+					return 0; 	//ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡
 			}
-			return -1;	//Á¸Àç ¾ÈÇÒ°æ¿ì (¾ÆÀÌµð°¡ ¾øÀ½)
+			return -1;	//ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò°ï¿½ï¿½ (ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½)
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-		return -2; //µ¥ÀÌÅÍº£ÀÌ½º ¿À·ù
+		return -2; //ï¿½ï¿½ï¿½ï¿½ï¿½Íºï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	}
 	
 	public int join(User user) {
@@ -55,7 +55,44 @@ public class UserDAO {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-		return -1;	//µ¥ÀÌÅÍº£ÀÌ½º ¿À·ù
+		return -1;	//ï¿½ï¿½ï¿½ï¿½ï¿½Íºï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	}
 	
+	public int update(String userID, String userPassword, String userName, String userEmail) {
+		String SQL = "UPDATE USER SET userPassword = ?, userName = ?, userEmail = ? WHERE userID = ?";
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setString(1, userPassword);
+			pstmt.setString(2, userName);
+			pstmt.setString(3, userEmail);
+			pstmt.setString(4, userID);
+			return pstmt.executeUpdate();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		return -1;	//ï¿½ï¿½ï¿½ï¿½ï¿½Íºï¿½ï¿½Ì½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	}
+	
+	
+	
+	public User getUser(String userID) {
+		String SQL = "SELECT * FROM USER WHERE userID = ?";
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setString(1, userID);
+			rs = pstmt.executeQuery();
+			if(rs.next()) {	//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´Ù¸ï¿½
+				User user = new User();
+				user.setUserID(rs.getString(1));
+				user.setUserPassword(rs.getString(2));
+				user.setUserName(rs.getString(3));
+				user.setUserGender(rs.getString(4));
+				user.setUserEmail(rs.getString(5));
+				return user;
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		return null;		//ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Â´Ù¸ï¿½
+	}
 }

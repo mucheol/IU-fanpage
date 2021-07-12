@@ -32,7 +32,7 @@
 						<div class="profile-des-subject">소속사</div>
 						<div class="profile-des-contents">EDAM 엔터테인먼트</div>
 						<div class="profile-des-subject">데뷔</div>
-						<div class="profile-des-contents">2008년 9월 18일 D+????(계산기능추가)</div>
+						<div class="profile-des-contents d-day">2008년 9월 18일 &nbsp;<h3></h3><span></span>일</div>
 						<div class="profile-des-subject">팬덤</div>
 						<div class="profile-des-contents">유애나 (UAENA)</div>
 						<div class="profile-des-subject">가족</div>

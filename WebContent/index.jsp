@@ -15,14 +15,15 @@
             <a href="./views/dramaMovie.jsp">Drama & Movie</a>
         </div>
             <a href="index.jsp"><img src="./img/logo.png" id="headerLogo"></a>
-        <div class="header-right">
+        <div class="header-right head--float">
             <a href="./views/music.jsp">Music</a> 
             <a href="./views/video.jsp">Video</a>
             <a href="./views/board/board.jsp">Board</a>
         </div>
     </div>
     
-    	<p id="notice">지속적으로 업데이트 중이며 아직은 미완성 입니다 :)</p>
+    	<p id="notice">지속적으로 개발, 업데이트 중입니다 :)</p>
+    	<p id="notice2">데스크탑이나 가로로 보시면 더 이쁘게 즐기실 수 있습니다 :)</p>
     
     
     <div id="bodyContainer">

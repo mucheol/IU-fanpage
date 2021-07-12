@@ -1,13 +1,22 @@
-@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
-@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
-@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@font-face {
+      src : url("../fonts/Cafe24Dongdong.ttf");
+      font-family: "Dongdong"
+}
+@font-face {
+      src : url("../fonts/Cafe24Behappy.ttf");
+      font-family: "Behappy"
+}
+@font-face {
+      src : url("../fonts/JejuMyeongjo.ttf");
+      font-family: "JejuMyeongjo"
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 *{
     margin:0;
     padding:0;
     position: relative;
-    font-family : 'Nanum Gothic';
+    font-family: ‘Behappy’, 'Dongdong', sans-serif;
     -ms-user-select: none; 
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
@@ -34,7 +43,6 @@ a:hover, a:active {text-decoration: none; color:black;}
     height: 100px;
     text-align: center;
     font-size: 1.7vw;
-    font-family : 'Jeju Gothic';
 }
 #header a{
     margin:0 1vw;
@@ -161,6 +169,9 @@ a:hover, a:active {text-decoration: none; color:black;}
     font-weight: 700;
     text-align: center;
 }
+.contents__desBox__title p{
+	font-family: "Nanum Gothic";
+}
 .contents__desBox__role{
     font-size: 1vw;
 }
@@ -180,6 +191,9 @@ a:hover, a:active {text-decoration: none; color:black;}
     height: 4.5vw;
     align-items: center;
     margin: 0.5vw;
+}
+.contents__desBox__report p{
+	font-family: "JejuMyeongjo";
 }
 /* DRAMA - 호텔델루나 */
 .drama__07 img{
@@ -214,14 +228,14 @@ a:hover, a:active {text-decoration: none; color:black;}
     width: 60%;
 }
 .movie__04 .contents__desBox__report{
-    display: block;
+    display: grid;
 }
 /* MOVIE - 페르소나 */
 .movie__03 img{
     width: 60%;
 }
 .movie__03 .contents__desBox__report{
-    display: block;
+    display: grid;
     text-align: center;
 }
 /* MOVIE - 새미의 어드벤쳐2 */
@@ -232,3 +246,23 @@ a:hover, a:active {text-decoration: none; color:black;}
 .movie__01 .contents__desBox__title{
     font-size: 1.6vw;
 }
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:1023px) {
+/* 타블렛 */
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 모바일 */
+@media screen and (max-width:767px) {
+	
+
+	}
+	
+	
+	

@@ -1,13 +1,22 @@
-@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
-@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
-@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@font-face {
+      src : url("../fonts/Cafe24Dongdong.ttf");
+      font-family: "Dongdong"
+}
+@font-face {
+      src : url("../fonts/Cafe24Behappy.ttf");
+      font-family: "Behappy"
+}
+@font-face {
+      src : url("../fonts/JejuMyeongjo.ttf");
+      font-family: "JejuMyeongjo"
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 *{
     margin:0;
     padding:0;
     position: relative;
-    font-family : 'Nanum Gothic';
+    font-family: ‘Behappy’, 'Dongdong', sans-serif;
     -ms-user-select: none; 
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
@@ -34,7 +43,6 @@ a:hover, a:active {text-decoration: none; color:black;}
     height: 100px;
     text-align: center;
     font-size: 1.7vw;
-    font-family : 'Jeju Gothic';
 }
 #header a{
     margin:0 1vw;
@@ -51,7 +59,6 @@ a:hover, a:active {text-decoration: none; color:black;}
     width:9.0vw;
     border-radius: 4.5vw;
 }
-
  .header-left{
     margin-left:22.5vw;
     text-shadow: -0.1vw 0 white, 0 0.1vw white, 0.1vw 0 white, 0 -0.1vw white;
@@ -60,6 +67,30 @@ a:hover, a:active {text-decoration: none; color:black;}
     margin-left: 8.5vw;
     text-shadow: -0.1vw 0 white, 0 0.1vw white, 0.1vw 0 white, 0 -0.1vw white;
 } 
+#notice{
+    -webkit-animation:blink 1s ease-in-out infinite alternate;
+     -moz-animation:blink 1s ease-in-out infinite alternate;
+      animation:blink 1s ease-in-out infinite alternate;
+      color:yellow;
+      position: fixed;
+      top: 1vw;
+      left: 1vw;
+      font-size: 0.8vw;
+      font-family: "Nanum Gothic";
+} 
+@-webkit-keyframes blink{ 
+    0%{opacity:0.5;} 
+    100% {opacity:1; color:red;} 
+} 
+@-moz-keyframes blink{ 
+    0%{opacity:0.5;} 
+    100% {opacity:1; color:red;} 
+} 
+@keyframes blink{ 
+    0% {opacity:0.5;} 
+    100% {opacity:1; color:red;} 
+}
+
 
 /* BODY */
 #bodyContainer{
@@ -131,6 +162,9 @@ a:hover, a:active {text-decoration: none; color:black;}
     text-align: center;
     justify-content: center;
 }
+.album__des__meaning p{
+	font-family: "JejuMyeongjo";
+}
 .album__des__song{
     font-size: 0.9vw;
     margin: 1vw 1vw 1vw 3vw;
@@ -199,25 +233,18 @@ a:hover, a:active {text-decoration: none; color:black;}
 
 
 
-#notice{
-    -webkit-animation:blink 1s ease-in-out infinite alternate;
-     -moz-animation:blink 1s ease-in-out infinite alternate;
-      animation:blink 1s ease-in-out infinite alternate;
-      color:yellow;
-      position: fixed;
-      top: 1vw;
-      left: 1vw;
-      font-size: 0.8vw;
-} 
-@-webkit-keyframes blink{ 
-    0%{opacity:0.5;} 
-    100% {opacity:1; color:red;} 
-} 
-@-moz-keyframes blink{ 
-    0%{opacity:0.5;} 
-    100% {opacity:1; color:red;} 
-} 
-@keyframes blink{ 
-    0% {opacity:0.5;} 
-    100% {opacity:1; color:red;} 
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:1023px) {
+/* 타블렛 */
 }
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 모바일 */
+@media screen and (max-width:767px) {
+	
+
+	}
+	
+	
+	
