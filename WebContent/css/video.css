@@ -138,8 +138,86 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* 모바일 */
 @media screen and (max-width:767px) {
 	
+/* 모바일 HEADER */
+#header{
+    display: block;
+    font-size: 5vw;
+    font-weight: 700;
+    top: 0vw;
+    background-color: #1b201e;
+    padding: 5vw 0 1vw;
+    color: black;
+}
+#header a {
+    margin: 0 5vw;
+}
+.header-left {
+	width:100%;
+    margin-left: 0;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+}
+.header-right {
+	width:100%;
+    margin-left: 0;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+}
 
-	}
-	
+#header a img {
+    position: relative;
+    margin: 1vw auto;
+    width: 12vw;
+    border-radius: 4.5vw;
+}
+
+/* 모바일 BODY */
+#bodyContainer{
+    background-image: url("../img/background/M-background5.jfif");
+    min-height: 100%;
+    background-position: bottom;
+    background-size: 109vw;
+    background-position-y: 33vw;
+}
+#container {
+    width: 100%;
+    top: 33vw;
+    left: 0;
+    display: flex;
+}
+.contents{
+	position: relative;
+    width: 20vw;
+    height: 20vw;
+}
+.contents--Left{
+    margin: 1vw 27.5vw 8vw 2vw;
+}
+.contents--Right{
+	margin: 1vw 2vw 8vw 27.5vw;
+}
+.contents__img {
+    width: 19vw;
+    height: 19vw;
+}
+.contents__img img {
+    border-radius: 12vw;
+}
+.contents__title{
+	position: absolute;
+    top: 23vw;
+	display:block;
+}
+.contents .contents__title__back {
+    width: 19vw;
+    height: 11vw;
+    background: none;
+}
+.contents__title p{
+    font-size: 3vw;
+    text-shadow: 0.4vw 0.4vw black;
+    font-weight: 700;
+}
+
+
+}	
 	
 	
