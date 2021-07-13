@@ -155,7 +155,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     font-weight: 700;
     top: 0vw;
 	background-color: rgb(203 203 203);
-    padding: 4vw 0;
+    padding: 5vw 0 1vw;
 }
 #header a {
     margin: 0 5vw;
@@ -163,10 +163,12 @@ a:hover, a:active {text-decoration: none; color:black;}
 .header-left {
 	width:100%;
     margin-left: 0;
+    text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
 }
 .header-right {
 	width:100%;
     margin-left: 0;
+    text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
 }
 
 #header a img {
@@ -197,10 +199,12 @@ a:hover, a:active {text-decoration: none; color:black;}
     color: rgb(186 93 210);
 }
 .profile-age p {
-    font-size: 3.3vw;    
+    font-size: 3.3vw; 
+    color: white;   
 }
 .profile-body p {
     font-size: 3.3vw;
+    color : white;
 }
 .profileBox div {
     margin-top: 1vw;
@@ -208,9 +212,11 @@ a:hover, a:active {text-decoration: none; color:black;}
 }
 .profile-des{
 	width: 60vw;
+	color: black;
 }
 .profile-des-subject {
-    color: rgb(255 215 215);
+	color: rgb(242 255 135);
+}
     
     
 }

@@ -40,9 +40,7 @@
                             <p>Love poem</p><p>2019.11.18</p>
                         </div>
                         <div class="album__des__meaning">
-                            <p>모든 문학에는 정답이 없다지만 그중 해석의 제한에서 가장 자유로운 것은 시가 아닐까 한다.
-                                	작품자의 순정만 담겨 있다면, 어떤 형태든 그 안에선 모든 것이 시적 허용된다.
-                                ‘시인’이라든가 ‘예술’이라든가 ‘영감’이라든가 ‘작품’과 같이 본인 입으로 얘기하기에는 왠지 좀 민망한 표현들에 대해 약간의 울렁증을 가지고 있는 내가, 앨범명을 뻔뻔하게 ‘사랑시’라고 지어 놓고도 하나도 부끄럽지 않은 이유는 여기 담은 것들이 전부 진심이기 때문이다.</p>
+                            <p>‘시인’이라든가 ‘예술’이라든가 ‘영감’이라든가 ‘작품’과 같이 본인 입으로 얘기하기에는 왠지 좀 민망한 표현들에 대해 약간의 울렁증을 가지고 있는 내가, 앨범명을 뻔뻔하게 ‘사랑시’라고 지어 놓고도 하나도 부끄럽지 않은 이유는 여기 담은 것들이 전부 진심이기 때문이다.</p>
                         </div>
                         <div class="album__des__song">
                             unlucky, 그 사람, <span class="albumTitle">Blueming[TITLE],</span> 시간의 바깥, 자장가, <span class="albumTitle">Love poem[TITLE]</span> 
@@ -128,7 +126,7 @@
                         </div>
                         <div class="album__des__meaning">
                             <p> '음악적 성장을 통한 성숙'이라는 테마로 기획과 제작이 진행되었다.<br>
-                                	또한, 2곡의 작곡과 4곡의 작사 참여를 통해 싱어송라이터로서의 욕심를 표현하고 있으며, 외형적으로도 '프렌치 블랙(French Black)'을 컨셉트로 한 낯설지만 과감한 변화에 도전했다.  <span class="repakage">(2013.12.20 리패키지)</span></p>
+                                 	 작곡과 작사 참여를 통해 싱어송라이터로서의 욕심를 표현하고 있으며, 외형적으로도 '프렌치 블랙'을 컨셉트로 한 낯설지만 과감한 변화에 도전했다.  <span class="repakage">(2013.12.20 리패키지)</span></p>
                         </div>
                         <div class="album__des__song">
                             <span class="repakage">금요일에 만나요(Feat.장이정), 크레파스, </span>을의 연애, 누구나 비밀은 있다(Feat.가인), 입술사이, <span class="albumTitle">분홍신[TITLE],</span> Modern Times, 싫은 날, Obliviate, 아이야 나랑 걷자(feat.최백호), Havana, 우울시계(Feat.종현), 한낮의 꿈(Feat.양희은), 기다려, Voice Mail(Bonus Track)

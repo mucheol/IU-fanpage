@@ -7,8 +7,8 @@
       font-family: "Behappy"
 }
 @font-face {
-      src : url("../fonts/JejuMyeongjo.ttf");
-      font-family: "JejuMyeongjo"
+      src : url("../fonts/Cafe24Ssukssuk.ttf");
+      font-family: "Ssukssuk"
 }
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
@@ -193,7 +193,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     margin: 0.5vw;
 }
 .contents__desBox__report p{
-	font-family: "JejuMyeongjo";
+	font-family: "Ssukssuk";
 }
 /* DRAMA - È£ÅÚµ¨·ç³ª */
 .drama__07 img{
@@ -267,7 +267,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     font-weight: 700;
     top: 0vw;
     background-color: rgb(255 255 255 / 30%);
-    padding: 4vw 0;
+    padding: 5vw 0 1vw;
 }
 #header a {
     margin: 0 5vw;
@@ -275,10 +275,12 @@ a:hover, a:active {text-decoration: none; color:black;}
 .header-left {
 	width:100%;
     margin-left: 0;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
 }
 .header-right {
 	width:100%;
     margin-left: 0;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
 }
 
 #header a img {
@@ -297,10 +299,10 @@ a:hover, a:active {text-decoration: none; color:black;}
 }
 #body--ContentsBox {
     position: relative;
-    top: 71.4vw;
+    top: 65.4vw;
     left: 5vw;
     width: 89vw;
-    height: 104vw;
+    height: 110vw;
     overflow: auto;
 }
 .contentsBox--contentsContainer {
@@ -310,21 +312,44 @@ a:hover, a:active {text-decoration: none; color:black;}
     font-size: 4vw;
     margin-top: 1vw;
 }
+.contents__topBox {
+    height: 28vw;
+}
 .contents__imgBox {
     width: 34vw;
 }
 .contents__desBox1 {
-    width: 25vw;
+    width: 30vw;
     margin-left: 0vw;
+    font-size: 3vw;
+}
+.contents__desBox__title {
+    font-size: 3.6vw;
+}
+.contents__desBox__genre {
+    font-size: 2.7vw;
+}
+.contents__desBox__name {
+    font-size: 2.7vw;
+}
+.contents__desBox__role {
+    font-size: 2.7vw;
+}
+.contents__desBox__info {
+    font-size: 2.1vw;
 }
 .contents__desBox__report {
     height: 10.5vw;
+    font-size: 2.5vw;
 }
+
+
+
 
 /* Drama */
 .drama {
     width: 100%;
-    height: 40vw;
+    height: 45vw;
     margin: 0 3vw 1vw;
     background-color: rgb(235 195 195 / 45%);
     border: 2px solid rgb(230 117 117);
@@ -341,7 +366,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* Movie */
 .movie {
     width: 100%;
-    height: 40vw;
+    height: 45vw;
     margin: 0 3vw 1vw;
     background-color: rgba(209, 209, 255, 0.45);
 }
@@ -353,11 +378,19 @@ a:hover, a:active {text-decoration: none; color:black;}
     left:0;
 }
 
+/* etc */
+.drama__07 .contents__desBox__role{
+    font-size: 2.7vw;
+}
+.drama__05 .contents__desBox__title{
+    font-size: 3.6vw;
+}
+.drama__04 .contents__desBox__role{
+    font-size: 2.7vw;
+}
 
 
-
-
-	}
+}
 	
 	
 	

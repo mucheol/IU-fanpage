@@ -7,8 +7,8 @@
       font-family: "Behappy"
 }
 @font-face {
-      src : url("../fonts/JejuMyeongjo.ttf");
-      font-family: "JejuMyeongjo"
+      src : url("../fonts/Cafe24Ssukssuk.ttf");
+      font-family: "Ssukssuk"
 }
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
@@ -163,7 +163,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     justify-content: center;
 }
 .album__des__meaning p{
-	font-family: "JejuMyeongjo";
+	font-family: "Ssukssuk";
 }
 .album__des__song{
     font-size: 0.9vw;
@@ -242,7 +242,118 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* 모바일 */
 @media screen and (max-width:767px) {
+
+/* 모바일 HEADER */
+#notice{
+	-webkit-animation:blink 1s ease-in-out infinite alternate;
+    -moz-animation: blink 1s ease-in-out infinite alternate;
+	animation: blink 1s ease-in-out infinite alternate;
+	color: yellow;
+	position: fixed;
+	top: 1vw;
+	right: 1vw;
+	left: auto;
+	font-size: 3vw;
+	z-index: 1;
+	display: block;
+	font-family: "Nanum Gothic";
 	
+}	
+	
+#header{
+    display: block;
+    font-size: 5vw;
+    font-weight: 700;
+    top: 0vw;
+    background-color: rgb(255 255 255 / 30%);
+    padding: 5vw 0 1vw;
+}
+#header a {
+    margin: 0 5vw;
+}
+.header-left {
+	width:100%;
+    margin-left: 0;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+}
+.header-right {
+	width:100%;
+    margin-left: 0;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+}
+
+#header a img {
+    position: relative;
+    margin: 1vw auto;
+    width: 12vw;
+    border-radius: 4.5vw;
+}
+
+/* 모바일 BODY */
+#bodyContainer{
+    background-image: url("../img/background/M-background4.jfif");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#body--contentsBox {
+    top: 70vw;
+    bottom: 5vw;
+    right: 12vw;
+    left: 10vw;
+    overflow-x: hidden;
+}
+.albumBox {
+    height: auto;
+    width: 90vw;
+    font-size: 2.5vw;
+    border-bottom: 0.9vw dotted #d9ffd9;
+}
+    
+.album__img {
+	position: absolute;
+    height: 9vw;
+    width: 12vw;
+}
+.album__img img {
+    height: 90%;
+    margin: 0;
+}
+.album__des {
+    width: 70vw;
+}
+.album__des__name {
+    height: 8vw;
+}
+.album__des__name p:nth-child(1) {
+    font-size: 4vw;
+    margin-left: 15vw;
+}
+.album__des__name p:nth-child(2) {
+    align-self: center;
+}
+.album__des__meaning {
+    height: 16vw;
+    margin: 0;
+}
+.album__des__song {
+	font-size: 2.7vw;
+    height: 8vw;
+}
+
+/* 앨범별 설정 */
+.album9 .album__des__meaning {
+    height: 21vw;
+}
+.album8{
+	height:39vw;
+}
+.album6{
+	height:44vw;
+}
+.album2{
+	height:39vw;
+}
 
 	}
 	
