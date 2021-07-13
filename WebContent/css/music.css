@@ -270,16 +270,17 @@ a:hover, a:active {text-decoration: none; color:black;}
 }
 #header a {
     margin: 0 5vw;
+    color: white;
 }
 .header-left {
 	width:100%;
     margin-left: 0;
-    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+    text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
 }
 .header-right {
 	width:100%;
     margin-left: 0;
-    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+    text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
 }
 
 #header a img {
