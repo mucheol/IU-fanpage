@@ -174,7 +174,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     background-image: url("../img/background/M-background5.jfif");
     min-height: 100%;
     background-position: bottom;
-    background-size: 109vw;
+    background-size: cover;
     background-position-y: 33vw;
 }
 #container {
