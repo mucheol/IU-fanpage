@@ -6,7 +6,6 @@
       src : url("../fonts/Cafe24Behappy.ttf");
       font-family: "Behappy"
 }
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 /* COMMON */
 *{
@@ -120,8 +119,42 @@ html, body{
 /* ¸ð¹ÙÀÏ */
 @media screen and (max-width:767px) {
 	
+#bodyContainer{
+    background-image: url("../img/background/M-background5.jfif");
+    min-height: 100%;
+    background-size: cover;
+    background-position-x: -3vw;
+    background-repeat: no-repeat;
+}
 
-	}
+.modal__title {
+    height: 45vw;
+}
+.contents__img {
+    width: 36vw;
+    height: 36vw;
+    margin-left: 28vw;
+}
+.contents__img img {
+    border-radius: 21vw;
+}
+.modal__contents__title {
+    width: 30vw;
+    font-size: 6vw;
+}
+
+
+.modal__contents {
+    top: 45vw;
+}
+.modal__contents__video {
+    width: 83vw;
+    height: 46vw;
+    margin: 7vw 1.5vw;
+}
+
+
+}
 	
 	
 	
