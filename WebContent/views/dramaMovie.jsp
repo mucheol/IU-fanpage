@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>IU Career</title>
 	<link rel="stylesheet" href="../css/dramaMovie.css">
+	<link rel="shortcut icon" href="../img/logo.png">
 </head>
 <body>
 	<jsp:include page="header.jsp"></jsp:include>

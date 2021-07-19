@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.io.PrintWriter" %>
 <%@ page import="user.UserDAO" %>
 <%@ page import="user.User" %>
-<%@ page import="java.io.PrintWriter" %>
 <% request.setCharacterEncoding("UTF-8"); %>
 <!DOCTYPE html>
 <html>
@@ -15,21 +15,23 @@
 		if(session.getAttribute("userID") != null){
 			userID = (String) session.getAttribute("userID");
 		}
-/* 		if(userID != null){
-			PrintWriter script = response.getWriter();
-			script.println("<script>");
-			script.println("alert('이미 로그인이 되어있습니다.')");
-			script.println("location.href = 'board.jsp'");
-			script.println("</script>");
-		} */
 
-		if(request.getParameter("userID") == null || request.getParameter("userID").equals("") 
-				|| request.getParameter("userName") == null || request.getParameter("userName").equals("")
-				|| request.getParameter("userPassword") == null || request.getParameter("userPassword").equals("")
-				|| request.getParameter("userEmail") == null || request.getParameter("userEmail").equals("")) {
+		if(request.getParameter("userName") == null || request.getParameter("userName").equals("")) {
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
-			script.println("alert('입력이 안 된 사항이 있습니다.')"); 
+			script.println("alert('이름을 입력해주세요.')"); 
+			script.println("history.back()");
+			script.println("</script>");
+		}else if(request.getParameter("userPassword") == null || request.getParameter("userPassword").equals("")) {
+			PrintWriter script = response.getWriter();
+			script.println("<script>");
+			script.println("alert('비밀번호를 입력해주세요.')"); 
+			script.println("history.back()");
+			script.println("</script>");
+		}else if(request.getParameter("userEmail") == null || request.getParameter("userEmail").equals("")) {
+			PrintWriter script = response.getWriter();
+			script.println("<script>");
+			script.println("alert('이메일을 입력해주세요.')"); 
 			script.println("history.back()");
 			script.println("</script>");
 		}else{

@@ -7,6 +7,7 @@
 <title>Music Video</title>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../../css/modal.css">
+	<link rel="shortcut icon" href="../../img/logo.png">
 </head>
 <body>
 <div id="bodyContainer">

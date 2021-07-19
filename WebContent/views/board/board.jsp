@@ -11,6 +11,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>IU Board</title>
+	<link rel="shortcut icon" href="../../img/logo.png">
 	<link rel="stylesheet" href="../../css/openSource/jquery.fullpage.css">
 	<link rel="stylesheet" href="../../css/openSource/jquery.fullpage.min.css">
 	<link rel="stylesheet" href="../../css/board/board.css">
