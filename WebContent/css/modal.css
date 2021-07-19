@@ -111,14 +111,15 @@ html, body{
 
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-@media screen and (max-width:1023px) {
 /* 타블렛 */
+@media screen and (max-width:1023px) {
+
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* 모바일 */
 @media screen and (max-width:767px) {
-	
+
 #bodyContainer{
     background-image: url("../img/background/M-background5.jfif");
     min-height: 100%;
@@ -126,7 +127,6 @@ html, body{
     background-position-x: -3vw;
     background-repeat: no-repeat;
 }
-
 .modal__title {
     height: 45vw;
 }
@@ -142,8 +142,6 @@ html, body{
     width: 30vw;
     font-size: 6vw;
 }
-
-
 .modal__contents {
     top: 45vw;
 }
@@ -153,8 +151,4 @@ html, body{
     margin: 7vw 1.5vw;
 }
 
-
 }
-	
-	
-	
