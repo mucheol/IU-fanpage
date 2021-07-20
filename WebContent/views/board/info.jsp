@@ -19,7 +19,16 @@
 	if(session.getAttribute("userID") != null){
 		userID = (String) session.getAttribute("userID");
 	}
-
+	if(userID == null){
+		PrintWriter script = response.getWriter();
+		script.println("<script>");
+		script.println("alert('로그인이 되어있지 않습니다.')"); 
+		script.println("location.href = 'board.jsp'");
+		script.println("</script>");
+	}
+	if(request.getParameter("userID") != null){
+		userID = request.getParameter("userID");
+	}
 	
 
 	User user = new UserDAO().getUser(userID);
