@@ -11,8 +11,7 @@
 	<link rel="shortcut icon" href="../../img/logo.png">
 	
 	<link rel="stylesheet" href="../../css/bootCss/bootstrap.css">
-	<link rel="stylesheet" href="../../css/board/write.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="stylesheet" href="../../css/board/writeView.css">
 </head>
 <body>
 <%

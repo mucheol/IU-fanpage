@@ -16,7 +16,6 @@
 	<link rel="stylesheet" href="../../css/openSource/jquery.fullpage.min.css">
 	<link rel="stylesheet" href="../../css/board/board.css">
 	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 <body>
 	<% 
