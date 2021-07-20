@@ -1,0 +1,280 @@
+@font-face {
+      src : url("../../fonts/Cafe24Dongdong.ttf");
+      font-family: "Dongdong"
+}
+@font-face {
+      src : url("../../fonts/Cafe24Behappy.ttf");
+      font-family: "Behappy"
+}
+@font-face {
+      src : url("../../fonts/Cafe24Ssukssuk.ttf");
+      font-family: "Ssukssuk"
+}
+
+*{
+    margin:0;
+    padding:0;
+    position: relative;
+    font-family: ‘Behappy’, 'Dongdong', sans-serif;
+    -ms-user-select: none; 
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    overflow: hidden;
+  }
+
+a {color: black;text-decoration: none;outline: none;}
+div, p {color:black; cursor:default;}
+a:hover, a:active {text-decoration: none; color:black;}
+
+/* HEADER */
+#header{
+    position: fixed;
+    top:3vw;
+    display: flex;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    font-size: 1.7vw;
+    z-index:1;
+}
+#header a{
+	color:white;
+    margin:0 1vw;
+}
+#header a:hover{
+	color:#8000ff;
+}
+#header a img{
+    position:fixed;
+    margin: 0 auto;
+    top:0.4vw;
+    left:0;
+    right:0;
+    width: 9vw;
+    border-radius: 4.5vw;
+}
+
+.header-left{
+    margin-left:22.5vw;
+    text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
+}
+.header-right{
+    margin-left: 8.5vw;
+    text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
+}
+
+
+/* BODY */
+#body__container{
+    background-image: url("../../img/background/background7.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#tableContainer{
+	position: absolute;
+    top: 11vw;
+    left: 10vw;
+    width: 55vw;
+    height: 32vw;
+    margin: auto 0;
+
+}
+#tableContainer table,th, td{
+    border: 0.1vw solid;
+    text-align: center;
+    font-size: 1.1vw;
+    font-family: 'Ssukssuk';
+}
+.form-txt{
+	display: block;
+  	width: 100%;
+  	height: 3.4vw;
+  	padding: 0.6vw 1.2vw;
+	font-size: 1.4vw;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 0.1vw solid #ccc;
+	border-radius: 0.4vw;
+  -webkit-box-shadow: inset 0 0.1vw 0.1vw rgba(0, 0, 0, .075);
+          box-shadow: inset 0 0.1vw 0.1vw rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+tbody{
+	border-top: 0.15vw solid black;
+}
+.table thead tr{
+	    background-color: rgb(190 190 190 / 80%);
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: rgb(225 225 225 / 80%);
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: rgb(255 255 255 / 80%);
+}
+.table input{
+	height: 2.5vw;
+}
+.table textarea{
+	height: 24.5vw;
+}
+.table tbody tr:nth-child(4) td{
+	height: 21.5vw;
+}
+.table tbody tr:nth-child(4) td:nth-child(1){
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.inputBtn{
+	display: inline-block;
+	padding: 0.6vw 1.2vw;
+	margin-bottom: 0;
+	margin-right: 1vw;
+    margin-top: -0.7vw;
+	font-size: 0.4vw;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: white;
+	background-color:black;
+	background-image: none;
+	border: 0.1vw solid transparent;
+	border-radius: 0.4vw;
+}
+.inputBtn:hover {
+	background-color: #515050; 
+}
+
+#viewBtnBox{
+	font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 12vw;
+}
+.writeBtn{
+	margin:0 2vw;
+}
+.writeBtn:hover{
+	color: #ffffff;
+}
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width:1023px) {
+/* 타블렛 */
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 모바일 */
+@media screen and (max-width:767px) {
+	/* 모바일 HEADER */
+#header{
+    display: block;
+    font-size: 5vw;
+    font-weight: 700;
+    top: 0vw;
+    background-color: rgb(255 255 255 / 10%);
+    padding: 5vw 0 1vw;
+    color: black;
+}
+#header a {
+    margin: 0 5vw;
+    color: black;
+}
+.header-left {
+	width:100%;
+    margin-left: 0;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+}
+.header-right {
+	width:100%;
+    margin-left: 0;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+}
+
+#header a img {
+    position: relative;
+    margin: 1vw auto;
+    width: 12vw;
+    border-radius: 4.5vw;
+}
+
+
+
+/* 모바일 BODY */
+#body__container{
+    background-image: url("../../img/background/M-background8.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#tableContainer {
+    position: absolute;
+    top: 40vw;
+    left: 4vw;
+    right: 4vw;
+    width: auto;
+    height: 112vw;
+}
+#tableContainer table, th, td {
+    border: 0.3vw solid;
+    font-size: 3.5vw;
+}
+.table tbody tr td:nth-child(1){
+	width: 26%;
+}
+.table tbody tr:nth-child(4) td {
+    height: 71.5vw;
+}
+.table tbody tr:nth-child(4) td:nth-child(1) {
+    width: auto;
+}
+#viewBtnBox {
+    font-size: 4vw;
+    margin-left: 75vw;
+}
+.writeBtn {
+    background-color: white;
+    width: 11vw;
+    height: 7vw;
+    text-align: center;
+    margin: 0 2vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    border: 0.5vw solid;
+    font-weight: 550;
+}
+
+
+}
+	
+	
+	
