@@ -247,7 +247,8 @@ a:hover, a:active {text-decoration: none; color:black;}
     background: none;
     border: none;
     outline: none;
-    font-size: 1.08vw;
+    font-size: 1.2vw;
+    margin: 1.5vw 0;
 }
 #newCheer{
 	width: 100%;
@@ -531,6 +532,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 }
 .note__des textarea {
 	font-size:2.9vw;
+	margin:auto;
 }
 
 

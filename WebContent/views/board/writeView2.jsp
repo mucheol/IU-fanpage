@@ -37,9 +37,7 @@
 		<div id="cheer__container">
 			<div id="cheerContainer__box">
 				<div id="cheerContainer__des">
-					<textarea  readonly>
-						<%= cheer.getCheerContent().replaceAll(" ","&nbsp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\n","<br>") %>
-					</textarea>
+					<textarea  readonly><%= cheer.getCheerContent().replaceAll(" ","&nbsp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll("\n","<br>") %></textarea>
 				</div>
 				
 				<div id="submitBox">

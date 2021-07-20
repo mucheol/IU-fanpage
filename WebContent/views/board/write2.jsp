@@ -26,7 +26,7 @@
         	<form method="post" action="writeAction2.jsp">
                 <div id="cheerContainer__box">
                     <div id="cheerContainer__des">
-                        <textarea class="form-txt" name="cheerContent" maxlength="128"></textarea>
+                        <textarea class="form-txt" name="cheerContent" maxlength="54"></textarea>
                     </div>
                     <div id="submitBox">
                     	<input type="button" onClick="location.href='board.jsp'" id="cheer__exitBtn"  class="cheerBtn" value="뒤로가기">

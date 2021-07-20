@@ -90,7 +90,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 #cheerContainer__box{
     width: 35vw;
     height: 30vw;
-    font-size: 3vw;
+    font-size: 3.1vw;
     padding: 0 3vw;
     background-color: rgb(255 255 255 / 60%);
     border: 0.3vw double;
@@ -213,7 +213,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 	top: 35vw;
     width: 84vw;
     height: 72vw;
-	font-size: 6vw;
+	font-size: 7.7vw;
     padding: 0 6vw;
     background-color: rgb(255 255 255 / 60%);
     border: 0.7vw double;
