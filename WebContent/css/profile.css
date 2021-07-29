@@ -143,6 +143,55 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (max-width:1023px) {
 /* Å¸ºí·¿ */
+#header{
+    font-size: 3vw;
+    color: black;
+}
+#header a{
+	color: black;
+}
+.header-left {
+	margin-left: 9.5vw;
+    text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
+}
+.header-right {
+    text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
+}
+#bodyContainer{
+    background-image: url("../img/background/T-background2.png");
+    background-position-x: -15vw;
+    background-position-y: 0vw;
+}
+#body-ContentsBox {
+    top: 18vw;
+    right: 2vw;
+    left: 48vw;
+    background: rgb(170 93 189 / 90%);
+    border-radius: 6vw;
+}
+.profile-name p {
+    font-size: 2.8vw;
+    color: rgb(253 247 255);
+}
+.profile-age p {
+    font-size: 2vw;
+    color: rgb(241 247 188);
+}
+.profile-body p {
+    font-size: 2vw;
+    color: rgb(241 247 188);
+}
+.profile-des-subject {
+    font-size: 2vw;
+    font-weight: 550;
+    color: rgb(255 189 189);
+}
+.profile-des-contents {
+    text-align: left;
+    font-size: 1.7vw;
+    color: rgb(254 255 244);
+}
+
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
