@@ -255,6 +255,78 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (max-width:1023px) {
 /* Å¸ºí·¿ */
+#header{
+    font-size: 3vw;
+    color: white;
+    background-color: rgb(255 255 255 / 50%);
+    padding-top: 6vw;
+    margin-top: -6vw;
+    height: 7vw;
+}
+#header a{
+	color: white;
+}
+.header-left {
+	margin-left: 9.5vw;
+    text-shadow: -0.25vw 0 black, 0 0.25vw black, 0.25vw 0 black, 0 -0.25vw black;
+}
+.header-right {
+    text-shadow: -0.25vw 0 black, 0 0.25vw black, 0.25vw 0 black, 0 -0.25vw black;
+}
+#bodyContainer{
+    background-image: url("../img/background/T-background3.jpg");
+	background-position-x: -10vw;
+    background-position-y: 0vw;
+    background-size: cover;
+}
+#body--ContentsBox {
+    top: 14.5vw;
+    bottom: 4vw;
+    right: 3vw;
+    left: 3vw;
+    border: 0.2vw dotted black;
+    border-radius: 5vw;
+}
+#contentsBox--drama {
+    right: 55vw;
+}
+#contentsBox--movie {
+    left: 56vw;
+    right: 0vw;
+}
+.contentsSubject {
+    font-size: 2.5vw;
+    text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
+}
+.movie {
+    height: 24vw;
+}
+.drama{
+	height: 24vw;
+}
+.contents__desBox1 div {
+    margin-top: 0.5vw;
+}
+.contents__desBox__title {
+    font-size: 2.2vw;
+}
+.contents__desBox__genre p{
+	font-size: 1.6vw;
+}
+.contents__desBox__name p{
+	font-size: 1.6vw;
+}
+.contents__desBox__role p{
+	font-size: 1.6vw;
+}
+.contents__desBox__info {
+    font-size: 1vw;
+    margin-top: 0.5vw;
+}
+.contents__desBox__report {
+    font-size: 1.5vw;
+    height: 5.5vw;
+}
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
