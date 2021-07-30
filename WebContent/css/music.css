@@ -237,6 +237,78 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (max-width:1023px) {
 /* Å¸ºí·¿ */
+#header{
+    font-size: 3vw;
+}
+#header a{
+	color: black;
+}
+.header-left {
+	margin-left: 9.5vw;
+    text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
+}
+.header-right {
+    text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
+}
+#bodyContainer{
+    background-image: url("../img/background/T-background4.jfif");
+	background-position-x: 43vw;
+    background-position-y: 8vw;
+    background-size: 57vw;
+    background-repeat-y: no-repeat;
+    background-color: black;
+}
+#body--contentsBox {
+    top: 12.5vw;
+    bottom: 4vw;
+    right: 43vw;
+    left: 2vw;
+    background: rgb(207 201 254 / 80%);
+    border: 0.2vw dotted black;
+    border-radius: 5vw;
+}
+.albumBox {
+    height: 17vw;
+    font-size: 1.5vw;
+}
+.album9{
+	height:17vw;
+}
+.album8{
+	height:19vw;
+}
+.album7{
+	height:13vw;
+}
+.album6{
+	height:22vw;
+}
+.album5{
+	height:13vw;
+}
+.album3{
+	height:15vw;
+}
+.album2{
+	height:19vw;
+}
+.album__img {
+    margin: auto;
+}
+.album__des__name p:nth-child(1) {
+    font-size: 2.5vw;
+}
+.album__des__name p:nth-child(2) {
+    font-size: 1.3vw;
+}
+.album__des__meaning {
+    height: 7vw;
+}
+.album__des__song {
+    font-size: 1.4vw;
+}
+
+
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
