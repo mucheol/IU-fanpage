@@ -137,9 +137,13 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* Å¸ºí·¿ */
 #header{
     font-size: 3vw;
+    top:4vw;
 }
 #header a{
 	color: black;
+}
+#header a img {
+    width: 11vw;
 }
 .header-left {
 	margin-left: 9.5vw;

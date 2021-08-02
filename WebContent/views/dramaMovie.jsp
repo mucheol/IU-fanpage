@@ -451,5 +451,6 @@
 	<script src="../js/openSource/jquery-3.6.0.min.js"></script>
 	<script src="../js/openSource/mouseEffect.js"></script>
 	<script src="../js/common.js"></script>
+	<script src="../js/dramaMovie.js"></script>
 </body>
 </html>

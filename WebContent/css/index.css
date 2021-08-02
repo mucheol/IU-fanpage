@@ -187,6 +187,10 @@ a:hover, a:active {text-decoration: none; color:black;}
 #header{
     font-size: 3vw;
     color: black;
+    top:4vw;
+}
+#header a img {
+    width: 11vw;
 }
 .header-left {
 	margin-left: 9.5vw;

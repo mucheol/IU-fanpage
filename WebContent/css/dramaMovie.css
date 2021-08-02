@@ -262,9 +262,13 @@ a:hover, a:active {text-decoration: none; color:black;}
     padding-top: 6vw;
     margin-top: -6vw;
     height: 7vw;
+    top:4vw;
 }
 #header a{
 	color: white;
+}
+#header a img {
+    width: 11vw;
 }
 .header-left {
 	margin-left: 9.5vw;
