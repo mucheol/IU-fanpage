@@ -135,6 +135,75 @@ a:hover, a:active {text-decoration: none; color:black;}
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (max-width:1023px) {
 /* Å¸ºí·¿ */
+#header{
+    font-size: 3vw;
+}
+#header a{
+	color: black;
+}
+.header-left {
+	margin-left: 9.5vw;
+    text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
+}
+.header-right {
+    text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
+}
+#bodyContainer{
+    background-image: url("../img/background/T-background5.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat-y: no-repeat;
+}
+#container {
+	width:auto;
+	left:0;
+	top: 13vw;
+}
+.contents {
+    width: 40%; 
+    height: 13vw;
+}
+.contents{
+	position: relative;
+    width: 14vw;
+    height: 24vw;
+}
+.contents--Left{
+    margin: 0 9vw;
+}
+.contents--Right{
+	margin: 0 9vw;
+}
+.contents__img {
+    width: 14vw;
+    height: 14vw;
+}
+.contents__img img {
+    border-radius: 12vw;
+}
+.contents__title{
+	position: absolute;
+    top: 18vw;
+	display:block;
+}
+.contents .contents__title__back {
+    width: 15vw;
+    height: 7vw;
+    background: none;
+}
+.contents__title p{
+    font-size: 2.5vw;
+    text-shadow: 0.3vw 0.3vw black;
+    font-weight: 700;
+}
+#content__iutv{
+	top: 48vw;
+    left: -16vw;
+}
+#content__musicVideo{
+	top: 24vw;
+    left: 16vw;
+}
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

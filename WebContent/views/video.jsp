@@ -31,7 +31,7 @@
 				</div>
 			</div>
 
-			<div class="contents contents--Right">
+			<div class="contents contents--Right" id="content__iutv">
 				<div class="contents__img">
 					<a href="./videoModal/iutvModal.jsp" target="_blank"> <img
 						src="../img/video/iutv.jpg">
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 
-			<div class="contents contents--Left">
+			<div class="contents contents--Left" id="content__musicVideo">
 				<div class="contents__img">
 					<a href="./videoModal/musicVideoModal.jsp" target="_blank"> <img
 						src="../img/video/musicVideo.jpg">
