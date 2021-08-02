@@ -113,6 +113,33 @@ html, body{
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* Å¸ºí·¿ */
 @media screen and (max-width:1023px) {
+#bodyContainer{
+    background-image: url("../img/background/T-background5.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat-y: no-repeat;
+}
+.modal__title {
+    height: 25vw;
+}
+.contents__img {
+    width: 16vw;
+    height: 16vw;
+}
+.contents__img img {
+    border-radius: 9vw
+}
+.modal__contents__title {
+    font-size: 3.5vw;	
+}
+.modal__contents {
+    top: 23vw;
+}	
+.modal__contents__video {
+    width: 38vw;
+    height: 21vw;
+    margin: 3vw 3.5vw;
+}
 
 }
 
