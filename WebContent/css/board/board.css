@@ -600,6 +600,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 #contentsBox__comments table {
     top: 40vw;
     height: 112vw;
+    left: 4vw;
 }
 #contentsBox__comments tr {
     display: flex;
