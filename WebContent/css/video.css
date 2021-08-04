@@ -133,7 +133,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-@media screen and (max-width:1023px) {
+@media (min-width:768px) and (max-width:1023px) {
 /* Å¸ºí·¿ */
 #header{
     font-size: 3vw;
@@ -220,7 +220,6 @@ a:hover, a:active {text-decoration: none; color:black;}
     font-size: 5vw;
     font-weight: 700;
     top: 0vw;
-    background-color: #1b201e;
     padding: 5vw 0 1vw;
     color: black;
 }
