@@ -274,8 +274,14 @@ a:hover, a:active {text-decoration: none; color:black;}
 	margin-left: 9.5vw;
     text-shadow: -0.25vw 0 black, 0 0.25vw black, 0.25vw 0 black, 0 -0.25vw black;
 }
+.header-left a:hover{
+	text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
+}
 .header-right {
     text-shadow: -0.25vw 0 black, 0 0.25vw black, 0.25vw 0 black, 0 -0.25vw black;
+}
+.header-right a:hover{
+	text-shadow: -0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white;
 }
 #bodyContainer{
     background-image: url("../img/background/T-background3.jpg");
@@ -354,10 +360,16 @@ a:hover, a:active {text-decoration: none; color:black;}
     margin-left: 0;
     text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
 }
+.header-left a:hover{
+	text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
+}
 .header-right {
 	width:100%;
     margin-left: 0;
     text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
+}
+.header-right a:hover{
+	text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
 }
 
 #header a img {
