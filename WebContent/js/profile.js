@@ -1,14 +1,4 @@
 (function (window, document) {
-    $(".headerA").hover(function() {
-    	$(this).css('text-shadow','-0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white');
-    },function(){
-    	$(this).css('text-shadow','-0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white');
-    });
-    
-
-
-    
-    
  // html의 span태그 안에 d-day 넣기
     const title = document.querySelector("h3");
 

@@ -13,14 +13,6 @@
         sectionSelector: '.section'
     });
     
-//HEADER
-    $(".headerA").hover(function() {
-    	$(this).css('text-shadow','-0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white');
-    },function(){
-    	$(this).css('text-shadow','-0.25vw 0 white, 0 0.25vw white, 0.25vw 0 white, 0 -0.25vw white');
-    });
-    
-    
     //JOIN MODAL
     $("#join").click(function() {
     	$("#joinModal").fadeIn('slow');
