@@ -44,7 +44,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     margin:0 1vw;
 }
 #header a:hover{
-	color:#8000ff;
+	color:#952bff;
 }
 #header a img{
     position:fixed;
@@ -56,7 +56,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     border-radius: 4.5vw;
 }
 .header-left{
-    margin-left:22.5vw;
+    margin-left:23vw;
     text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
 }
 .header-right{
@@ -208,7 +208,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     font-weight: 700;
     top: 0vw;
 	background-color: rgb(203 203 203);
-    padding: 5vw 0 1vw;
+    padding: 5vw 0 4vw;
 }
 #header a {
     margin: 0 5vw;
@@ -216,12 +216,12 @@ a:hover, a:active {text-decoration: none; color:black;}
 .header-left {
 	width:100%;
     margin-left: 0;
-    text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
 }
 .header-right {
 	width:100%;
     margin-left: 0;
-    text-shadow: -0.4vw 0 black, 0 0.4vw black, 0.4vw 0 black, 0 -0.4vw black;
+    text-shadow: -0.4vw 0 white, 0 0.4vw white, 0.4vw 0 white, 0 -0.4vw white;
 }
 
 #header a img {

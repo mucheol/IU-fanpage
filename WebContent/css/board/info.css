@@ -60,7 +60,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 }
 
 .header-left{
-    margin-left:22.5vw;
+    margin-left:23vw;
     text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
 }
 .header-right{

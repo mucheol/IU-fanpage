@@ -7,10 +7,9 @@
       font-family: "Behappy"
 }
 @font-face {
-      src : url("../fonts/JejuMyeongjo.ttf");
-      font-family: "JejuMyeongjo"
+      src : url("../../fonts/Cafe24Ssukssuk.ttf");
+      font-family: "Ssukssuk"
 }
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 *{
     margin:0;
@@ -63,7 +62,7 @@ a:hover, a:active {text-decoration: none; color:black;}
 }
 
 .header-left{
-    margin-left:22.5vw;
+    margin-left:23vw;
     text-shadow: -0.1vw 0 black, 0 0.1vw black, 0.1vw 0 black, 0 -0.1vw black;
 }
 .header-right{
@@ -103,7 +102,7 @@ a:hover, a:active {text-decoration: none; color:black;}
     display: flex;
     text-align: center;
     align-items: center;
-    font-family: "JejuMyeongjo"
+    font-family: "Ssukssuk"
 }
 #cheerContainer__des textarea{
    width: 100%;
